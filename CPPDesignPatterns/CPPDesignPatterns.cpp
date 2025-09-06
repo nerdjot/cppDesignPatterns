@@ -6,6 +6,7 @@
 //#include "DesignPatterns/Creational/Singleton/SingletonClient.h"
 #include "DesignPatterns/Creational/Singleton/SingletonModernClient.h"
 #include "DesignPatterns/Creational/Singleton/SingletonAsTemplateClient.h"
+#include "DesignPatterns/Structural/Adapter/AdapterClient.h"
 
 using namespace std;
 
@@ -21,7 +22,10 @@ int main()
 	//singletonModernClientCode();
 
 	//SingletonAsTemplate::
-	singletonAsTemplateClientCode();
+	//singletonAsTemplateClientCode();
+
+	//Adapter::
+	clientCode();
 
 	return 0;
 }
