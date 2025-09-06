@@ -12,7 +12,7 @@ endif()
 project ("CPPDesignPatterns")
 
 # Add source to this project's executable.
-add_executable (CPPDesignPatterns "CPPDesignPatterns.cpp" "CPPDesignPatterns.h" "DesignPatterns/Creational/Factory/DBConnector.h" "DesignPatterns/Creational/Factory/DBInstance.h" "DesignPatterns/Creational/Factory/FactoryClient.cpp" "DesignPatterns/Creational/Factory/FactoryClient.h" "DesignPatterns/Creational/Singleton/Singleton.h" "DesignPatterns/Creational/Singleton/SingletonClient.h" "DesignPatterns/Creational/Singleton/SingletonAsTemplate.h" "DesignPatterns/Creational/Singleton/SingletonModern.h" "DesignPatterns/Creational/Singleton/SingletonModernClient.h" "DesignPatterns/Creational/Singleton/SingletonAsTemplateClient.h")
+add_executable (CPPDesignPatterns "CPPDesignPatterns.cpp" "CPPDesignPatterns.h" "DesignPatterns/Creational/Factory/DBConnector.h" "DesignPatterns/Creational/Factory/DBInstance.h" "DesignPatterns/Creational/Factory/FactoryClient.cpp" "DesignPatterns/Creational/Factory/FactoryClient.h" "DesignPatterns/Creational/Singleton/Singleton.h" "DesignPatterns/Creational/Singleton/SingletonClient.h" "DesignPatterns/Creational/Singleton/SingletonAsTemplate.h" "DesignPatterns/Creational/Singleton/SingletonModern.h" "DesignPatterns/Creational/Singleton/SingletonModernClient.h" "DesignPatterns/Creational/Singleton/SingletonAsTemplateClient.h" "DesignPatterns/Structural/Adapter/FixMsgAdapter.h" "DesignPatterns/Structural/Adapter/AdapterClient.h")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET CPPDesignPatterns PROPERTY CXX_STANDARD 20)
